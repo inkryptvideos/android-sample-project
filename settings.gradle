@@ -10,7 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        
+        maven { url 'https://github.com/inkryptvideos/android-maven-repo/raw/main/repo' }
     }
 }
 rootProject.name = "My Application"
